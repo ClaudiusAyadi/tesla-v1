@@ -10,19 +10,7 @@ body {
 
 @layer components {
   .section {
-    @apply relative h-screen bg-cover bg-center;
-  }
-
-  .bg-model-s {
-    @apply bg-[url('../dist/assests/Homepage-Model-3-Desktop-LHD.webp')];
-  }
-
-  .bg-model-y {
-    @apply bg-[url('../dist/assests/Homepage-Model-Y-Global-Desktop.webp')];
-  }
-
-  .bg-accessories {
-    @apply bg-[url('../dist/assests/accessories.webp')];
+    @apply relative h-screen overflow-hidden bg-cover bg-center bg-no-repeat;
   }
 
   .btn__wrapper {

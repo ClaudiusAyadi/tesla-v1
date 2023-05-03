@@ -525,20 +525,10 @@ video {
 .section {
   position: relative;
   height: 100vh;
+  overflow: hidden;
   background-size: cover;
   background-position: center;
-}
-
-.bg-model-s {
-  background-image: url('../dist/assests/Homepage-Model-3-Desktop-LHD.webp');
-}
-
-.bg-model-y {
-  background-image: url('../dist/assests/Homepage-Model-Y-Global-Desktop.webp');
-}
-
-.bg-accessories {
-  background-image: url('../dist/assests/accessories.webp');
+  background-repeat: no-repeat;
 }
 
 .btn__wrapper {
@@ -707,6 +697,18 @@ video {
 
 .whitespace-nowrap {
   white-space: nowrap;
+}
+
+.bg-accessories {
+  background-image: url('../dist/assets/accessories.webp');
+}
+
+.bg-model-s {
+  background-image: url('../dist/assets/model-s.webp');
+}
+
+.bg-model-y {
+  background-image: url('../dist/assets/model-y.webp');
 }
 
 .px-3 {
