@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "model-s": "url('../dist/assets/model-s.webp')",
-        "model-y": "url('../dist/assets/model-y.webp')",
-        accessories: "url('../dist/assets/accessories.webp')",
+        "model-s": "url('assets/model-s.webp')",
+        "model-y": "url('assets/model-y.webp')",
+        accessories: "url('assets/accessories.webp')",
       },
     },
   },

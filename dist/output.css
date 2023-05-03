@@ -714,15 +714,15 @@ video {
 }
 
 .bg-accessories {
-  background-image: url('../dist/assets/accessories.webp');
+  background-image: url('assets/accessories.webp');
 }
 
 .bg-model-s {
-  background-image: url('../dist/assets/model-s.webp');
+  background-image: url('assets/model-s.webp');
 }
 
 .bg-model-y {
-  background-image: url('../dist/assets/model-y.webp');
+  background-image: url('assets/model-y.webp');
 }
 
 .pb-10 {
