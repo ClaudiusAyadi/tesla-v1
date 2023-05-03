@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Gotham SSm", sans-serif;
+  font-family: 1rem;
+  color: #393c41;
+}
+
+@layer components {
+  .section {
+    @apply relative h-screen bg-cover bg-center;
+  }
+
+  .bg-model-s {
+    @apply bg-[url('../dist/assests/Homepage-Model-3-Desktop-LHD.webp')];
+  }
+
+  .bg-model-y {
+    @apply bg-[url('../dist/assests/Homepage-Model-Y-Global-Desktop.webp')];
+  }
+
+  .bg-accessories {
+    @apply bg-[url('../dist/assests/accessories.webp')];
+  }
+
+  .btn__wrapper {
+    @apply absolute bottom-20 left-1/2 flex -translate-x-1/2 flex-col md:flex-row md:space-x-4;
+  }
+
+  .btn {
+    @apply h-10 w-[80vw] max-w-sm rounded-full bg-[#393c41] uppercase text-white md:w-60;
+  }
+
+  .btn--alt {
+    @apply mt-2 bg-slate-100 text-[#393c41] md:mt-0;
+  }
+
+  .link {
+    @apply cursor-pointer font-medium;
+  }
+}
