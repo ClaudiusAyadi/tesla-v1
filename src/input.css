@@ -13,6 +13,10 @@ body {
     @apply relative h-screen overflow-hidden bg-cover bg-center bg-no-repeat;
   }
 
+  .nav--link {
+    @apply cursor-pointer px-3 py-1 hover:rounded-full hover:bg-slate-100;
+  }
+
   .btn__wrapper {
     @apply absolute bottom-20 left-1/2 flex -translate-x-1/2 flex-col md:flex-row md:space-x-4;
   }

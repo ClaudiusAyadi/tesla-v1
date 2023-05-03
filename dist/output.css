@@ -531,6 +531,20 @@ video {
   background-repeat: no-repeat;
 }
 
+.nav--link {
+  cursor: pointer;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.nav--link:hover {
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
 .btn__wrapper {
   position: absolute;
   bottom: 5rem;
@@ -711,16 +725,6 @@ video {
   background-image: url('../dist/assets/model-y.webp');
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -763,15 +767,6 @@ body {
   font-family: "Gotham SSm", sans-serif;
   font-family: 1rem;
   color: #393c41;
-}
-
-.hover\:rounded-full:hover {
-  border-radius: 9999px;
-}
-
-.hover\:bg-slate-100:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
 .hover\:decoration-2:hover {
